@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EVO Jangli Badminton</title>
+  <meta name="description" content="Sewa lapangan badminton vinyl di EVO Jangli, Ngesrep, Banyumanik, Semarang. Tarif Rp50.000 per jam. Hitung estimasi biaya dan booking lewat WhatsApp.">
+  <meta name="theme-color" content="#173F35">
+
+  <!-- Font Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- CSS kustom -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="evo-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Navigasi utama">
+      <div class="container">
+        <a class="navbar-brand evo-brand" href="#beranda">EVO Badminton</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Buka menu navigasi">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto me-lg-4 mb-3 mb-lg-0 gap-lg-1">
+            <li class="nav-item"><a class="nav-link evo-nav-link active" href="#beranda">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link evo-nav-link" href="#tentang">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link evo-nav-link" href="#lapangan">Lapangan</a></li>
+            <li class="nav-item"><a class="nav-link evo-nav-link" href="#fasilitas">Fasilitas</a></li>
+            <li class="nav-item"><a class="nav-link evo-nav-link" href="#lokasi">Lokasi</a></li>
+            <li class="nav-item"><a class="nav-link evo-nav-link" href="#data-pengunjung">Data Pengunjung</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="beranda" class="evo-hero" aria-labelledby="hero-title">
+      <div class="container text-center">
+        <h1 id="hero-title" class="evo-hero__title">Cari Lapangan, Booking, dan Main!</h1>
+        <p class="evo-hero__lead">Pilih lapangan badminton favoritmu di EVO Jangli dengan harga mulai dari Rp50.000 per jam.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <a href="#booking" class="btn btn-lime">Pesan Lapangan</a>
+          <a href="#lapangan" class="btn btn-ghost">Lihat Lapangan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section id="tentang" class="evo-section" aria-labelledby="tentang-title">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <h2 id="tentang-title" class="evo-heading evo-heading--left">Tentang Kami</h2>
+            <p class="evo-text">Resmi berdiri pada 27 Oktober 2023 di Ngesrep, Banyumanik, Kota Semarang, EVO Jangli Badminton hadir sebagai pilihan arena badminton indoor yang nyaman, berkualitas, dan terjangkau bagi semua kalangan.</p>
+            <p class="evo-text">Kami menyediakan 5 lapangan badminton berlapis karpet vinyl yang dirancang untuk menunjang kenyamanan bermain. Dengan pencahayaan yang optimal dan minim silau, EVO Jangli Badminton cocok untuk berbagai aktivitas, mulai dari bermain santai bersama teman, sparring antar-komunitas, hingga latihan intensif Kami berkomitmen menghadirkan fasilitas yang mendukung pengalaman bermain badminton yang nyaman dan menyenangkan bagi setiap pengunjung..</p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="images/tentangkami.png" class="evo-about-img" width="572" height="472"
+                 alt="Suasana arena indoor EVO Jangli Badminton dengan lapangan karpet vinyl hijau" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PILIH LAPANGAN -->
+    <section id="lapangan" class="evo-section evo-section--alt" aria-labelledby="lapangan-title">
+      <div class="container">
+        <div class="evo-section__head">
+          <h2 id="lapangan-title" class="evo-heading">Pilih Lapangan Favoritemu</h2>
+          <p class="evo-subtitle">Tersedia 5 lapangan vinyl untuk menemani permainanmu. Pilih lapangan dan jadwalkan waktu bermainmu.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <article class="court-card" data-court="Lapangan Vinyl 01">
+              <img src="images/lap1.png" width="371" height="186" alt="Lapangan Vinyl 01" loading="lazy">
+              <div class="court-card__body">
+                <h3 class="court-card__title">Lapangan Vinyl 01</h3>
+                <div class="court-card__price"><span>Tarif Sewa</span><strong>Rp50.000 <small>/ jam</small></strong></div>
+                <button type="button" class="btn btn-court" data-court-select="Lapangan Vinyl 01" aria-pressed="false">Pilih Lapangan</button>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="court-card" data-court="Lapangan Vinyl 02">
+              <img src="images/lap2.png" width="369" height="178" alt="Lapangan Vinyl 02" loading="lazy">
+              <div class="court-card__body">
+                <h3 class="court-card__title">Lapangan Vinyl 02</h3>
+                <div class="court-card__price"><span>Tarif Sewa</span><strong>Rp50.000 <small>/ jam</small></strong></div>
+                <button type="button" class="btn btn-court" data-court-select="Lapangan Vinyl 02" aria-pressed="false">Pilih Lapangan</button>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="court-card" data-court="Lapangan Vinyl 03">
+              <img src="images/lap3.png" width="372" height="186" alt="Lapangan Vinyl 03" loading="lazy">
+              <div class="court-card__body">
+                <h3 class="court-card__title">Lapangan Vinyl 03</h3>
+                <div class="court-card__price"><span>Tarif Sewa</span><strong>Rp50.000 <small>/ jam</small></strong></div>
+                <button type="button" class="btn btn-court" data-court-select="Lapangan Vinyl 03" aria-pressed="false">Pilih Lapangan</button>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="court-card" data-court="Lapangan Vinyl 04">
+              <img src="images/lap4.png" width="371" height="184" alt="Lapangan Vinyl 04" loading="lazy">
+              <div class="court-card__body">
+                <h3 class="court-card__title">Lapangan Vinyl 04</h3>
+                <div class="court-card__price"><span>Tarif Sewa</span><strong>Rp50.000 <small>/ jam</small></strong></div>
+                <button type="button" class="btn btn-court" data-court-select="Lapangan Vinyl 04" aria-pressed="false">Pilih Lapangan</button>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="court-card" data-court="Lapangan Vinyl 05">
+              <img src="images/lap5.png" width="370" height="184" alt="Lapangan Vinyl 05" loading="lazy">
+              <div class="court-card__body">
+                <h3 class="court-card__title">Lapangan Vinyl 05</h3>
+                <div class="court-card__price"><span>Tarif Sewa</span><strong>Rp50.000 <small>/ jam</small></strong></div>
+                <button type="button" class="btn btn-court" data-court-select="Lapangan Vinyl 05" aria-pressed="false">Pilih Lapangan</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FASILITAS -->
+    <section id="fasilitas" class="evo-section" aria-labelledby="fasilitas-title">
+      <div class="container">
+        <div class="evo-section__head">
+          <h2 id="fasilitas-title" class="evo-heading">Kenyamanan Bermain Sepanjang Hari</h2>
+          <p class="evo-subtitle">Fasilitas pendukung lengkap disiapkan guna memastikan performa tanding dan kenyamanan pengunjung tetap maksimal.</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-camera-video" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">CCTV 24 Jam</h3>
+              <p class="facility-card__text">Pengawasan keamanan menyeluruh di area lapangan, lobi, dan parkiran.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-p-circle" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">Area Parkir Luas</h3>
+              <p class="facility-card__text">Lahan parkir memadai untuk puluhan kendaraan roda dua serta roda empat.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-lightbulb" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">Penerangan Memadai</h3>
+              <p class="facility-card__text">Floodlight LED khusus olahraga dengan distribusi cahaya merata tanpa silau.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-badge-wc" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">Toilet Bersih</h3>
+              <p class="facility-card__text">Sanitasi higienis dan ruang ganti terpisah yang dirawat secara berkala.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-cup-straw" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">Kantin Venue</h3>
+              <p class="facility-card__text">Sedia minuman isotonik dingin, air mineral, serta aneka camilan energi.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="facility-card">
+              <span class="facility-card__icon"><i class="bi bi-moon-stars" aria-hidden="true"></i></span>
+              <h3 class="facility-card__title">Mushola Nyaman</h3>
+              <p class="facility-card__text">Ruang ibadah bersih dilengkapi sarana wudhu yang tertata rapi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HITUNG BIAYA SEWA / BOOKING -->
+    <section id="booking" class="evo-section evo-section--alt" aria-labelledby="booking-title">
+      <div class="container">
+        <div class="evo-section__head">
+          <h2 id="booking-title" class="evo-heading">Hitung Biaya Sewa</h2>
+          <p class="evo-subtitle">Cek estimasi biaya sesuai lapangan, tanggal, dan durasi bermainmu.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Form -->
+          <div class="col-lg-7">
+            <form id="bookingForm" class="evo-card booking-form" novalidate>
+
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap <span class="req">*</span></label>
+                <input type="text" id="nama" name="nama" class="form-control evo-input" placeholder="Masukkan nama lengkap"
+                       autocomplete="name" maxlength="60" aria-describedby="err-nama">
+                <div id="err-nama" class="field-error" role="alert"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="whatsapp" class="form-label">Nomor WhatsApp <span class="req">*</span></label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form-control evo-input" placeholder="Contoh : 085607331933"
+                       inputmode="tel" autocomplete="tel" maxlength="20" aria-describedby="err-whatsapp">
+                <div id="err-whatsapp" class="field-error" role="alert"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="lapanganSelect" class="form-label">Lapangan <span class="req">*</span></label>
+                <select id="lapanganSelect" name="lapangan" class="form-select evo-input" aria-describedby="err-lapangan">
+                  <option value="" selected>Pilih lapangan</option>
+                  <option value="Lapangan Vinyl 01">Lapangan Vinyl 01</option>
+                  <option value="Lapangan Vinyl 02">Lapangan Vinyl 02</option>
+                  <option value="Lapangan Vinyl 03">Lapangan Vinyl 03</option>
+                  <option value="Lapangan Vinyl 04">Lapangan Vinyl 04</option>
+                  <option value="Lapangan Vinyl 05">Lapangan Vinyl 05</option>
+                </select>
+                <div id="err-lapangan" class="field-error" role="alert"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="tanggal" class="form-label">Tanggal bermain<span class="req">*</span></label>
+                <div class="date-field" id="dateField">
+                  <i class="bi bi-calendar3 date-field__icon" aria-hidden="true"></i>
+                  <span class="date-field__text is-placeholder" id="tanggalText" aria-hidden="true">Pilih tanggal</span>
+                  <input type="date" id="tanggal" name="tanggal" class="date-field__native" aria-describedby="err-tanggal">
+                </div>
+                <div id="err-tanggal" class="field-error" role="alert"></div>
+              </div>
+
+              <div class="mb-3">
+                <span class="form-label d-block" id="slotLabel">Pilih Slot Waktu <span class="req">*</span></span>
+                <div id="slotGrid" class="slot-grid" role="group" aria-labelledby="slotLabel"></div>
+                <div id="err-slot" class="field-error" role="alert"></div>
+                <p class="form-hint mb-0">Pilih satu atau lebih slot yang berurutan. Jam operasional 08.00 - 23.00.</p>
+              </div>
+
+              <div class="mb-4">
+                <label for="durasi" class="form-label">Durasi Sewa<span class="req">*</span></label>
+                <input type="text" id="durasi" class="form-control evo-input" value="" placeholder="Otomatis dari slot yang dipilih" readonly>
+                <p class="form-hint mb-0" id="liveCost" aria-live="polite">Tarif Rp50.000 per jam.</p>
+              </div>
+
+              <button type="submit" class="btn btn-dark-green w-100">Cek Estimasi Biaya</button>
+            </form>
+          </div>
+
+          <!-- Hasil simulasi -->
+          <div class="col-lg-5">
+            <aside class="evo-card result-card" aria-live="polite" aria-label="Hasil simulasi booking">
+
+              <!-- Kondisi awal -->
+              <div id="resultEmpty" class="result-empty">
+                <span class="result-empty__icon"><i class="bi bi-calendar-check" aria-hidden="true"></i></span>
+                <h3 class="result-title">Simulasi belum dihitung</h3>
+                <p class="result-sub mb-0">Isi form di samping lalu klik <strong>Cek Estimasi Biaya</strong> untuk melihat ringkasan booking dan total biayanya.</p>
+              </div>
+
+              <!-- Setelah dihitung -->
+              <div id="resultFilled" class="d-none">
+                <div class="d-flex align-items-start gap-3 mb-3">
+                  <span class="result-check"><i class="bi bi-check-circle" aria-hidden="true"></i></span>
+                  <div>
+                    <h3 class="result-title mb-1">Simulasi Berhasil Dihitung!</h3>
+                    <p class="result-sub mb-0">Berikut rincian simulasi sewa lapangan Anda:</p>
+                  </div>
+                </div>
+
+                <dl class="result-list">
+                  <div class="result-row"><dt>Nama</dt><dd id="resNama"></dd></div>
+                  <div class="result-row"><dt>WhatsApp</dt><dd id="resWa"></dd></div>
+                  <div class="result-row"><dt>Lapangan</dt><dd id="resLapangan"></dd></div>
+                  <div class="result-row"><dt>Tanggal</dt><dd id="resTanggal"></dd></div>
+                  <div class="result-row"><dt>Jadwal</dt><dd id="resJadwal"></dd></div>
+                  <div class="result-row"><dt>Durasi</dt><dd id="resDurasi"></dd></div>
+                  <div class="result-row result-row--total"><dt>Total Biaya:</dt><dd id="resTotal"></dd></div>
+                </dl>
+
+
+                <a id="btnWhatsApp" class="btn btn-lime w-100 mb-2" href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-whatsapp me-1" aria-hidden="true"></i> Lanjut Booking via WhatsApp
+                </a>
+                <button type="button" id="btnReset" class="btn btn-grey w-100">Booking Lagi (Reset)</button>
+              </div>
+
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKASI -->
+    <section id="lokasi" class="evo-section" aria-labelledby="lokasi-title">
+      <div class="container">
+        <div class="evo-section__head">
+          <h2 id="lokasi-title" class="evo-heading">Kunjungi EVO Jangli Badminton</h2>
+          <p class="evo-subtitle">Akses strategis di kawasan Banyumanik Semarang dengan rute mudah dijangkau dari pusat kota.</p>
+        </div>
+
+        <div class="evo-card map-card">
+          <div class="map-frame">
+            <iframe title="Peta lokasi EVO Jangli Badminton di Banyumanik, Semarang"
+                    src="https://www.google.com/maps?q=EVO+Jangli+Badminton+Semarang&amp;output=embed"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <a id="btnMaps" class="btn btn-dark-green w-100 mt-4"
+             href="https://www.google.com/maps/search/?api=1&amp;query=EVO+Jangli+Badminton+Semarang"
+             target="_blank" rel="noopener noreferrer">
+            Buka Google Maps <i class="bi bi-box-arrow-up-right ms-1" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- DATA PENGUNJUNG (form tambahan UTS) -->
+    <section id="data-pengunjung" class="evo-section evo-section--alt" aria-labelledby="pengunjung-title">
+      <div class="container">
+        <div class="evo-section__head">
+          <h2 id="pengunjung-title" class="evo-heading">Data Pengunjung</h2>
+          <p class="evo-subtitle">Isi data dirimu agar kami bisa mengenal pemain EVO lebih baik.</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form id="visitorForm" class="evo-card booking-form" novalidate>
+
+              <!-- Nama: input text -->
+              <div class="mb-3">
+                <label for="visitorNama" class="form-label">Nama <span class="req">*</span></label>
+                <input type="text" id="visitorNama" name="nama" class="form-control evo-input"
+                       placeholder="Masukkan nama" maxlength="60" autocomplete="name" aria-describedby="err-visitorNama">
+                <div id="err-visitorNama" class="field-error" role="alert"></div>
+              </div>
+
+              <!-- Alamat: textarea -->
+              <div class="mb-3">
+                <label for="visitorAlamat" class="form-label">Alamat <span class="req">*</span></label>
+                <textarea id="visitorAlamat" name="alamat" class="form-control evo-input" rows="3"
+                          placeholder="Masukkan alamat lengkap" aria-describedby="err-visitorAlamat"></textarea>
+                <div id="err-visitorAlamat" class="field-error" role="alert"></div>
+              </div>
+
+              <!-- Kota: select -->
+              <div class="mb-3">
+                <label for="visitorKota" class="form-label">Kota <span class="req">*</span></label>
+                <select id="visitorKota" name="kota" class="form-select evo-input" aria-describedby="err-visitorKota">
+                  <option value="" selected>Pilih kota</option>
+                  <option value="Semarang">Semarang</option>
+                  <option value="Kudus">Kudus</option>
+                  <option value="Demak">Demak</option>
+                  <option value="Pekalongan">Pekalongan</option>
+                  <option value="Tegal">Tegal</option>
+                  <option value="Surabaya">Surabaya</option>
+                  <option value="Jakarta">Jakarta</option>
+                </select>
+                <div id="err-visitorKota" class="field-error" role="alert"></div>
+              </div>
+
+              <!-- Hobi: checkbox -->
+              <fieldset class="mb-4" aria-describedby="err-visitorHobi">
+                <legend class="form-label">Hobi <span class="req">*</span></legend>
+                <div class="row row-cols-2 row-cols-md-4 g-2">
+                  <div class="col">
+                    <div class="form-check hobi-item">
+                      <input class="form-check-input" type="checkbox" name="hobi" value="Membaca" id="hobiMembaca">
+                      <label class="form-check-label" for="hobiMembaca">Membaca</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check hobi-item">
+                      <input class="form-check-input" type="checkbox" name="hobi" value="Koding" id="hobiKoding">
+                      <label class="form-check-label" for="hobiKoding">Koding</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check hobi-item">
+                      <input class="form-check-input" type="checkbox" name="hobi" value="Berenang" id="hobiBerenang">
+                      <label class="form-check-label" for="hobiBerenang">Berenang</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-check hobi-item">
+                      <input class="form-check-input" type="checkbox" name="hobi" value="Menggambar" id="hobiMenggambar">
+                      <label class="form-check-label" for="hobiMenggambar">Menggambar</label>
+                    </div>
+                  </div>
+                </div>
+                <div id="err-visitorHobi" class="field-error" role="alert"></div>
+              </fieldset>
+
+              <div class="d-flex flex-column flex-sm-row gap-2">
+                <button type="submit" class="btn btn-dark-green flex-fill">Kirim Data</button>
+                <button type="reset" class="btn btn-grey flex-fill" id="visitorReset">Reset</button>
+              </div>
+
+              <!-- Ringkasan setelah submit -->
+              <div id="visitorResult" class="alert alert-success mt-4 mb-0 d-none" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+
+  <!-- FOOTER -->
+  <footer class="evo-footer">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-4">
+          <p class="footer-text mb-0">Meila Syafa Az Zahro - A12.2025.07413.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h2 class="footer-title">Menu Navigasi</h2>
+          <ul class="footer-links list-unstyled mb-0">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Klub</a></li>
+            <li><a href="#lapangan">Spesifikasi Lapangan</a></li>
+            <li><a href="#fasilitas">Fasilitas &amp; Amenitas</a></li>
+            <li><a href="#booking">Reservasi Jadwal</a></li>
+            <li><a href="#lokasi">Peta Lokasi &amp; Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-5">
+          <h2 class="footer-title">Lokasi &amp; Operasional</h2>
+          <ul class="footer-info list-unstyled mb-0">
+            <li>
+              <i class="bi bi-geo-alt" aria-hidden="true"></i>
+              <span>Jl. Jangli Perbalan No. Timur Kav. 7–8, Ngesrep, Kec. Banyumanik, Kota Semarang, Jawa Tengah</span>
+            </li>
+            <li>
+              <i class="bi bi-clock" aria-hidden="true"></i>
+              <span><strong>Buka Setiap Hari</strong><br>08.00 - 23.00 WIB</span>
+            </li>
+            <li>
+              <i class="bi bi-telephone" aria-hidden="true"></i>
+              <a href="https://wa.me/6288291299537" target="_blank" rel="noopener noreferrer">+62 882-9129-9537 (WhatsApp)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <small>&copy; <span id="tahun">2026</span> EVO Jangli Badminton. Seluruh hak cipta dilindungi.</small>
+        <div class="d-flex gap-4">
+          <button type="button" class="footer-legal" data-legal="privasi">Kebijakan Privasi</button>
+          <button type="button" class="footer-legal" data-legal="syarat">Syarat &amp; Ketentuan</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Kebijakan Privasi / Syarat & Ketentuan -->
+  <div class="modal fade" id="legalModal" tabindex="-1" aria-labelledby="legalModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="legalModalTitle"></h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+        </div>
+        <div class="modal-body" id="legalModalBody"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark-green" data-bs-dismiss="modal">Mengerti</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
